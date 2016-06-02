@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Forbidden City</title>
+<link rel="stylesheet" type="text/css" href="css/site.css">
+</head>
+
+
+<body>
+  <div id="block1">
+    <div id="section10">Forbidden City</div>
+    <div id="section11">
+<a href="index.html" style="text-decoration:none">Home</a> 
+<a href="city.html" style="text-decoration:none">City</a>
+<a href="destination.html" style="text-decoration:none">Destination</a>
+    </div>
+  </div>
+
+  <div id="picture">
+      <a href="https://www.youtube.com/watch?v=Pk5srATpEnA" target="_blank"><img src="res/city/item0.jpg" alt="picture" style="width:1070px;height:300px"></a>
+  </div>
+<br/>
+
+  <section id="headersite">
+  <nav role='navigation'>
+    <ul>
+      <li><a class="link-1" href="#info">Information</a></li>
+      <li><a class="link-2" href="#comment">Comments</a></li>
+    </ul>
+  </nav>  
+  </section>
+<br/>
+<section id="info">
+  <h2 style="color:#F7AA00;">Information</h2>
+  <div id="section12">
+    <p style="color:#525252; text-align:justify;">
+    The Forbidden City was the Chinese imperial palace from the Ming dynasty to the end of the Qing dynasty—the years 1420 to 1912. It is located in the centre of Beijing, China, and now houses the Palace Museum.</p>
+    </div>
+
+  <div class="picture">
+      <img src="res/site/map0.png" alt="picture" style="width:400px;height:250px"></a>
+  </div>
+  <div class="picture">
+      <a href="https://www.google.com/maps/place/The+Palace+Museum/@39.9163488,116.3949659,17z/data=!3m1!4b1!4m2!3m1!1s0x35f052dd9bcd81ab:0xde43eaed9b106064?hl=en" target="_blank"><img src="res/site/map.png" alt="picture" style="width:610px;height:250px"></a>
+  </div>
+</section> 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<section id="comment" >
+  <h2 style="color:#F7AA00;">Comments</h2>
+  <div id="section13">
+    Name:    <input id="n" type="text" name="name" value="">
+    <input id="tipn" type="text" name="cb" >
+  <br/>
+  <br/>
+    <textarea id="t" name="comment" rows="3" cols="120" placeholder="Comment here..."></textarea>
+    <input id="tipt" type="text" name="cb" ><br>
+    <input type="button" onclick="comment.tip()" value="Submit">
+  </div>
+  
+
+<script type="text/javascript">
+var comment = new Object();
+comment.n = document.getElementById("n").value
+comment.t = document.getElementById("t").value;
+comment.tip = function() {
+  if ((this.n).length == 0) {
+    document.getElementById("tipn").value = "* Please enter name.";
+    document.getElementById("tipn").style.color="#ff0000";
+  }
+  if ((this.t).length == 0) {
+    document.getElementById("tipt").value = "* Please enter comment.";
+    document.getElementById("tipt").style.color="#ff0000";
+  }
+}
+</script>
+
+</section>
+<br/><br/>
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="js/index.js"></script> 
+
+</body>
+</html>
