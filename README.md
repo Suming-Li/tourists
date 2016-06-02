@@ -1,5 +1,6 @@
 # tourists
 (Group project with one participant)
+
 This website tries to collect information of famous scenic spots in major cities of China. There are four important tasks that users can do at this website. 
 
 First, users can find tourist cities of China which they are interested in at the home page. The target users are in English speaking countries and can be divided into two types. The first type, people who have had basic information on Chinese major cities. For example, they know several cities’ names and general locations. These users can use the menu to choose cities which is at the bottom of the home page. The second type, people who have no ideas on Chinese cities. They can choose cities according to the travel theme which they are interested in.
